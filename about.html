@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Pomodoro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: url("lake-night.jpg") no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to right, #6697c5, #e1bfe7);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+
+        .navbar {
+            background-color: rgba(5, 5, 5, 0.575);
+            color: rgb(203, 167, 218);
+            position: fixed;
+            width: 100%;
+            top: 0;
+
+        }
+
+        .navbar ul {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-around;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(203, 167, 218);
+        }
+
+        .navbar ul li {
+            font-family: "Playwrite AU SA", cursive;
+            font-optical-sizing: 0;
+            font-weight: 10px;
+            font-size: 25px;
+            padding: 4px 15px;
+        }
+
+        .navbar ul li:hover{
+            background-color: rgba(255, 255, 255, 0.747);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            text-decoration-thickness: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration-thickness: 20px;
+            transform: scale(1.05);
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Timer</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>About Pomodoro Technique</h1>
+        <p>The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.</p>
+        <p>Benefits of using Pomodoro Technique include:</p>
+        <ul>
+            <li>Improved focus and productivity</li>
+            <li>Reduced procrastination</li>
+            <li>Enhanced time management skills</li>
+            <li>Increased motivation and satisfaction</li>
+        </ul>
+        <p>For more information, you can visit: <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">wikipedia</a></p>
+    </div>
+</body>
+
+</html>
